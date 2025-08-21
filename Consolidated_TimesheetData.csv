@@ -1,0 +1,4 @@
+Resource Name,Month,Hours Worked,Projected Hours,Allocated Funding,Actual Spend,Status,Type
+Resource A,July 2025,160,160,10000,9500,Active,Hiring
+Resource B,July 2025,150,160,9500,9000,Active,Promotion
+Resource C,July 2025,120,160,9000,8500,Inactive,Replacement

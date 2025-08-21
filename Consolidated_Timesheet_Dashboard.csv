@@ -1,0 +1,22 @@
+Resource Name,Month,Hours Worked,Projected Hours,Allocated Funding,Actual Spend,Status,Type
+Resource A,July 2025,160,160,10000,9500,Active,Hiring
+Resource B,July 2025,150,160,9500,9000,Active,Promotion
+Resource C,July 2025,120,160,9000,8500,Inactive,Replacement
+
+# Dashboard Instructions
+1. Use Power Query to import all CSVs from the folder.
+2. Load data into a table named 'TimesheetData'.
+3. Create Pivot Tables for:
+   - Total/Available Funding
+   - Breakdown by Type
+   - Headcount by Status
+   - Projections vs. Actuals
+4. Add Pivot Charts (Pie, Bar, Column) for each metric.
+5. Add Slicers for Resource Name, Status, and Month.
+6. Use 'Refresh All' to update dashboard when new files are added.
+
+# Sample Pivot Table Layouts
+- Funding: Rows=Month, Values=Sum of Allocated Funding, Actual Spend
+- Breakdown: Rows=Type, Values=Count of Resource Name
+- Headcount: Rows=Status, Values=Count of Resource Name
+- Projections vs. Actuals: Rows=Resource Name, Columns=Month, Values=Sum of Projected/Actual Hours
